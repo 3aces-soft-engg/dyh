@@ -115,12 +115,26 @@ textarea {
 } */
 
 .feature-logo {
+    display: inline-block;
     background: url(img/dlogo.jpg) center center / cover no-repeat;
+    height: inherit;
 }
 
+.ftr-logo {
+    /*  position: absolute; */
+    padding: 10px;
+    
+    /* border: 10px solid #ccc; */
+    -moz-box-shadow:    inset 0 0 5px rgba(0,0,0,0.4);
+   -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.4);
+   box-shadow:         inset 0 0 5px rgba(0,0,0,0.4);
+    /* z-index: 9999999999 !important; */
+    margin: auto;
+}
 
-
-
+.carousel.slide,.carousel-item {
+    height: 490px;
+}
 
 
 
